@@ -1,0 +1,446 @@
+.all-sort-list{
+	display: none;
+}
+
+.wapper{
+    margin-left: auto;
+    margin-right: auto;
+    background: #fffff2;
+
+	
+}
+
+.main1 {
+    width: 100%;
+    min-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fffff2;
+}
+.user_seckil{
+	background:#e4393c url(../images/fuye/bg.jpg) no-repeat center top;
+   
+}
+.user_nav {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: "微软雅黑";
+}
+ .banner1 {
+    width: 212px;
+    height: 45px;
+    margin: 0 auto;
+}
+.tab_option {
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    height: 102px;
+    text-align: right;
+}
+.tab_left{
+	height: 85px;
+    margin-top: 17px;
+    background-color: #1e0040;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    position: absolute;
+    right: 50%;
+    margin-right: 152px;
+    left: 0;
+
+}
+.tab_left div{
+	font-size: 20px;
+	color: #fff;
+	line-height: 85px;
+	position: absolute;
+	right: 50%;
+	margin-right: -100px;
+    left: 0;
+}
+.tab_right{
+	height: 85px;
+    margin-top: 17px;
+    background-color: #45c0e2;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: 152px;
+    right: 0;
+}
+.tab_option .tab_minddle {
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    width: 250px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    cursor: pointer;
+}
+.tab_option .tab_minddle h3{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.tab_option .tab_minddle p{
+	font-size: 16px
+}
+ .timer .desc {
+    width: 65px;
+    background-color: transparent;
+    color: #fff;
+}
+.timer span{
+	/*display: block;
+	float: left;*/
+	width: 25px;
+	height: 25px;
+	margin-left: 7px;
+	line-height: 25px;
+}
+.timer .time {
+	width: 25px;
+	height: 25px;
+	margin-left: 7px;
+	line-height: 25px;
+	display: inline-block;
+	/*float: left;*/
+    background-color: #1e0040;
+    color: #fff;
+    font-size: 18px;
+}
+.longPro{
+	width: 1021px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+	border-radius: 4px;
+	height: 360px;
+	margin-top: 10px;	
+}
+.longPro .img {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    margin: 10px 0px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    line-height: 63px;
+}
+ .longPro .img a {
+    display: block;
+}
+.longPro .img .iconfont {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../images/fuye/xsqg1.png);
+    background-size: cover;
+}
+.longPro .img .iconfont .txt {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 21px;
+    position: absolute;
+    left: 32px;
+    top: 27px;
+    font-family: 微软雅黑;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+ .longPro .desc {
+    width: 600px;
+    margin-top: 35px;
+    margin-left: 33px;
+}
+ .longPro .desc .names2 {
+    font-size: 24px;
+    display: block;
+    color: #494848;
+    height: 35px;
+    /*overflow: hidden;*/
+    text-align: left;
+    font-weight: bold;
+}
+.longPro .desc .title2 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 23px;
+    height: 24px;
+}
+.longPro .desc .timer {
+    margin-top: 50px;
+    /*overflow: hidden;*/
+    border-bottom: 1px dashed #cccccc;
+    height: 60px;
+}
+.desc .timer>span {
+    display: block;
+    float: left;
+    font-size: 38px;
+    margin-right: 14px;
+    width: auto;
+    line-height: 77px;
+    background: none;
+}
+.longPro  .timer .desc1 {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 32px;
+    font-weight: bold;
+    color: #494848;
+	line-height: 77px;
+}
+.longPro  .timer .time {
+    color: #ff4565;
+    line-height: 75px;
+}
+.longPro .timer .timetxt {
+    font-size: 16px;
+    line-height: 87px;
+}
+.purchase .price {
+    float: left;
+    margin-top: 39px;
+    height: 43px;
+}
+ .price .price_n {
+    font-size: 50px;
+    line-height: 42px;
+    float: left;
+    color: #eb0808;
+    font-weight: bold;
+}
+ .price .price_n .price_y {
+    font-size: 24px;
+}
+ .price .price_o {
+    font-size: 18px;
+    line-height: 62px;
+    color: #000;
+    text-decoration: line-through;
+    float: left;
+    display: block;
+    margin-left: 18px;
+}
+ .buy_s {
+    display: block;
+    float: right;
+    width: 224px;
+    height: 69px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 25px auto;
+    background-image: url(http://static.winxuancdn.com/topic/subject/201608/ceshi/buy_1.png);
+    background-position: 0px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.longPro .img a img {
+    width: 284px;
+    height: 284px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: none;
+}
+.user_center {
+    width: 1021px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.book_list {
+    width: 1041px;
+    margin: 0 auto;
+    overflow: hidden;
+    _zoom: 1;
+    padding-bottom: 21px;
+    padding-top: 10px;
+    font-family: 微软雅黑;
+}
+.book_list li {
+    position: relative;
+    float: left;
+    width: 327px;
+    overflow: hidden;
+    margin: 10px 20px 0 0;
+    background: #fff;
+    border-radius: 4px;
+}
+.book_list li .img {
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.user_booklist li a {
+    display: block;
+}
+.img img {
+    max-width: 270px;
+    height: 270px;
+}
+.name_tit a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: -webkit-left;
+}
+ .biaoy {
+    display: inline-block;
+    text-align: center;
+    width: 108px;
+    height: 108px;
+    background-image: url(http://static.winxuancdn.com/topic/subject/201607/M/ms/db1.png);
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.biaoy span {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 25px;
+    line-height: 27px;
+    font-weight: bold;
+    
+}
+.name_one{
+	display: inline-block;
+    font-weight: bold;
+    color: #000000;
+    height: 21px;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.name_two {
+    display: inline-block;
+    color: #a1a1a1;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.price {
+    width: 280px;
+    height: 36px;
+    padding: 4px 0;
+    line-height: 36px;
+    background: #fff;
+    margin: 2px 20px;
+    overflow: hidden;
+}
+.money_new,.money_o{
+	float: left;
+	line-height: 62px;
+}
+.money_new {
+    color: #eb0808;
+    font-size: 24px;
+    font-weight: bold;
+}
+ .money_o{
+	color: #000000;
+    font-size: 16px;
+ 
+}
+.price .nmbook {
+    display: inline-block;
+    width: 59px;
+    height: 23px;
+    background-image: url(../images/fuye/db2.png);
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+    overflow: hidden;
+    
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 23px;
+}
+.price .money_two {
+    color: #000000;
+    font-size: 16px;
+}
+.price .price_o{
+	margin-left: 0;
+}
+.book_list .btns {
+    display: block;
+    width: 250px;
+    height: 55px;
+    background-color: red;
+    line-height: 55px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    margin: 10px auto 10px;
+    text-align: center;
+}
+.price .zkj_fh {
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 23px;
+}
+.biglist {
+	
+	width: 100%;
+	margin: 0 auto;
+}
+.biglist{
+	/*background: url(../images/fuye/tj.jpg) no-repeat center;*/
+	height: 211px;
+}
+/*.bigbox img{
+	
+	width: 100%;
+	margin: 0 auto;
+}*/
+.biglist div{
+	width: 990px;
+	height: 211px;
+	margin: 0 auto;
+	position: relative;
+}
+.dang{
+	
+	font-size: 35px;
+    color: #623111;
+    line-height: 0.8;
+	
+	
+}
+.abs {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+	top: 270px;
+	left: 260px;
+	text-align: center;
+}
+	.dang2{
+	font-size: 46px;
+    color: #623111;
+    font-weight: bold;
+	}
+    

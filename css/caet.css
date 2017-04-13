@@ -1,0 +1,111 @@
+/*common*/
+body{
+	    color: #666;
+}
+.w30 {
+    width: 30px;
+}
+.w50{
+	width: 50px;
+}
+.w400{
+	  width: 400px;
+}
+.w200{
+	width: 200px;
+}
+.w150{
+	width: 150px;
+}
+.w250 {
+    width: 250px;
+}
+.center {
+    text-align: center;
+}
+.clear {
+    display: block;
+    clear: both;
+    float: none;
+}
+.f14 {
+    font: 14px/1.5 tahoma,arial,"Hiragino Sans GB",宋体,sans-serif;
+}
+.p5 {
+    padding: 5px;
+}
+
+/*导航栏*/
+.all-sort-list{
+	display: none;
+}
+/*购物车*/
+.wrapcon{
+	width:100%;
+	min-width: 1200px;
+}
+.wrapcon .wrap{
+	text-align: center;
+}
+.wrapcon .vendor {
+    border: solid 1px #ccc;
+    width: 1100px;
+    padding: 10px;
+    margin: 10px auto;
+    background: #fcfcfc none repeat scroll 0 0;
+}
+.vendordiv {
+    background: red;
+    color: white !important;
+    padding: 5px 20px;
+    margin: 5px 0;
+    display: inline-block;
+}
+.wrapcon .vendor .listhead {
+    font-weight: normal;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px dashed #dddddd;
+}
+.wrap .title img {
+    width: 100px;
+    border: 1px solid #eee;
+}
+.listbody .list {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 14px 0px;
+}
+.crossline {
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+}
+.qty input {
+    font-family: Arial,sans-serif,Tahoma;
+    font-size: 12px;
+    height: 23px;
+    line-height: 25px;
+    overflow: visible;
+    padding: 0 0.5em;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    border-left: none;
+    border-right: none;
+    /*float: left;*/
+}
+.qty .minus, .qty .add {
+    width: 25px;
+    height: 25px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.secsum {
+    font-size: 14px;
+    text-align: right;
+    height: 35px;
+    line-height: 35px;
+}
+.number {
+    color: #f40;
+    font-weight: 700;
+}

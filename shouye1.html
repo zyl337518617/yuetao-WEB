@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<!--公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<!--top-->
+		<link rel="stylesheet" type="text/css" href="css/tophead.css" />
+		<!--nav-->
+		<link rel="stylesheet" type="text/css" href="css/headcont.css" />
+		<link rel="stylesheet" type="text/css" href="css/lrtk.css" />
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/PhpInterface1/Ajax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tophead.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/load.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/headcont.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/loadimg.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/demo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/loadtap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/waterfall.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/totop.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+
+	<body>
+		<!--tophead-->
+		<div class="tophead"></div>
+		<!--headcont-->
+		<div class="headcont"></div>
+		<!--nav-->
+		<div class="nav">
+			<div class="wrap">
+				<div id="lr_systembtn">
+					<div class="top-name fl">商品分类</div>
+					<div class="names"></div>
+				</div>
+				<ul class="lists">
+					<li class="home">
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="huodong.html">特价抢购</a>
+					</li>
+					<li>
+						<a href="#">取书卡</a>
+					</li>
+					<li>
+						<a href="#">团购通道</a>
+					</li>
+					<li>
+						<a href="#">最划算<img src="images/hot.gif" alt=""   style="display:inline-block;margin-left: 3px;"/></a>
+					</li>
+					<li>
+						<a href="#">在线阅读</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!--banner-->
+		<div class="banners" id="banners">
+			<div class="bannerin wrap">
+				<div class="mid-banner">
+					<div id="hotpic" class="flexslider">
+						<div class="flex-viewport banner">
+							<div class="banner-btn">
+								<a href="javascript:;" class="prevBtn" id="prev"><i></i></a>
+								<a href="javascript:;" class="nextBtn" id="next"><i></i></a>
+							</div>
+							<ul class="banner-img " id="container">
+								<li>
+									<a href="#"><img src=""></a>
+								</li>
+								<li>
+									<a href="#"><img src=""></a>
+								</li>
+								<li>
+									<a href="#"><img src=""></a>
+								</li>
+								<li>
+									<a href="#"><img src=""></a>
+								</li>
+								<li>
+									<a href="#"><img src=""></a>
+								</li>
+							</ul>
+							<div id="dot_box">
+								<span class="dot_default dot_show"></span>
+								<span class="dot_default"></span>
+								<span class="dot_default"></span>
+								<span class="dot_default"></span>
+								<span class="dot_default"></span>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="right">
+
+					<a target="_blank" href="">
+						<span class="buttom">
+                   <img src="" />
+                </span>
+					</a>
+
+					<a target="_blank" href="">
+						<span class="buttom">
+                   <img src=""  />
+                </span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+		
+	<div class="contles">
+			<div class="nav-1">
+				<div class="wrap">
+					<div class="modular">
+						<div class="piclist" id="piclist">
+						<ul class="fl">
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+						
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+						</ul>
+						<ul class="fl">
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+						
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+						</ul>
+						<ul class="fl">
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+							<li>
+								<a href=""><img src="" alt="" /></a>
+							</li>
+						</ul>
+						</div>
+						<div class="point-sp">
+							<span class="span_left" id="span_left">&lt;</span>
+							<span class="span_right" id="span_right">&gt;</span>
+	
+						</div>
+					</div>
+				</div>
+	
+			</div>
+			<!--nav2-->
+			<div class="nav-2">
+				<div class="wrap">
+					<div class="fl left-icon"></div>
+					<div class="fl right-text">
+						<div class="topadv">
+	
+						</div>
+						<div class="title">
+							<a href=""><img src="images/news.png" /></a>
+						</div>
+	
+						<ul class="news">
+	
+						</ul>
+						<div class="morene">
+							<a href="">更多&gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--hot-->
+			<div class="hotproduct">
+				<div class="wrap">
+					<div class="hotproduct_title">
+						<span class="spaci">最划算</span>
+						<span class="image"><img src="images/hot.gif"/></span>
+						<span class="xianshi">每日严选 品牌折扣限时抢</span>
+					</div>
+					<div class="mainhot">
+						<div class="hotbanner"></div>
+						<div class="smallbanner"></div>
+					</div>
+				</div>
+			</div>
+	
+			<div class=" floor1">
+				<div class="wrap">
+					<div class="floor1_top">
+						<h2>热门推送</h2>
+						<div class="tap1 fl">
+							<a href="" class="tap1_first">推荐</a>
+							<a href="">新品</a>
+							<a href="">折扣</a>
+						</div>
+					</div>
+					<div class="hotmain">
+						<div class="left_banner fl"></div>
+						<div class="banner_pro fl">
+							<ul class="product_list">
+	
+							</ul>
+						</div>
+					</div>
+	
+					<div class="footbanner"></div>
+				</div>
+	
+			</div>
+	
+			<div class="hot floor2">
+				<div class="wrap">
+					<div class="floor1_top">
+						<div class="fl fname"></div>
+						<h2>小说人文</h2>
+						<div class="tap1 fl">
+							<a href="" class="tap1_first">励志</a>
+							<a href="">社科</a>
+							<a href="">经营</a>
+							<a href="">文艺</a>
+						</div>
+					</div>
+					<div class="mainf1" >
+						<div class="left_banner fl "></div>
+						<div class="banner_pro fl ">
+							<ul class="product_list fl ">
+						
+							</ul>
+					
+						</div>
+						<div class="floorhottop fl " >
+							<ul class="tabcontent ">
+								
+							</ul>
+						</div>
+					</div>
+					<div class="footbanner "></div>
+				</div>
+				
+			</div>
+			<div class="hot floor3">
+				<div class="wrap">
+					<div class="floor1_top">
+						<div class="fl fname"></div>
+						<h2>文教音像</h2>
+						<div class="tap1 fl">
+							<a href="" class="tap1_first">教材教辅</a>
+							<a href="">考试外语</a>
+							<a href="">音像制品</a>
+						</div>
+					</div>
+					<div class="mainf1">
+						<div class="left_banner fl "></div>
+						<div class="banner_pro fl ">
+							<ul class="product_list fl ">
+						
+							</ul>
+					
+						</div>
+						<div class="floorhottop fl " >
+							<ul class="tabcontent ">
+								
+							</ul>
+						</div>
+					</div>
+					<div class="footbanner "></div>
+				</div>
+				
+			</div>
+			<div class="hot floor4">
+				<div class="wrap">
+					<div class="floor1_top">
+						<div class="fl fname"></div>
+						<h2>童书天堂</h2>
+						<div class="tap1 fl">
+							<a href="" class="tap1_first">低幼</a>
+							<a href="">百科</a>
+							<a href="">文学</a>
+							<a href="">绘本</a>
+						</div>
+					</div>
+					<div class="mainf1" >
+						<div class="left_banner fl "></div>
+						<div class="banner_pro fl ">
+							<ul class="product_list fl ">
+						
+							</ul>
+					
+						</div>
+						<div class="floorhottop fl " >
+							<ul class="tabcontent ">
+								
+							</ul>
+						</div>
+					</div>
+					<div class="footbanner "></div>
+				</div>
+				
+			</div>	
+			<div class="hot floor5">
+				<div class="wrap">
+					<div class="floor1_top">
+						<div class="fl fname"></div>
+						<h2>生活科技</h2>
+						<div class="tap1 fl">
+							<a href="" class="tap1_first">生活</a>
+							<a href="">建筑</a>
+							<a href="">医学</a>
+							<a href="">科学</a>
+						</div>
+					</div>
+					<div class="mainf1" >
+						<div class="left_banner fl "></div>
+						<div class="banner_pro fl ">
+							<ul class="product_list fl ">
+						
+							</ul>
+					
+						</div>
+						<div class="floorhottop fl " >
+							<ul class="tabcontent ">
+								
+							</ul>
+						</div>
+					</div>
+					<div class="footbanner "></div>
+				</div>
+				
+			</div>
+			<div class="hot floor6">
+				<div class="wrap">
+					<div class="floor1_top">
+						<div class="fl fname"></div>
+						<h2>电子教育</h2>
+						<div class="tap1 fl">
+							<a href="" class="tap1_first">热销商品</a>
+							<a href="">新品速递</a>
+							
+						</div>
+					</div>
+					<div class="mainf1" >
+						<div class="left_banner fl "></div>
+						<div class="banner_pro fl ">
+							<ul class="product_list fl ">
+						
+							</ul>
+						</div>
+						<div class="floorhottop fl " >
+							<ul class="tabcontent ">
+								
+							</ul>
+						</div>
+					</div>
+					<div class="footbanner "></div>
+				</div>
+				
+			</div>
+			<div class="hot floor7">
+			<div class="wrap">
+				<div class="floor1_top">
+					<div class="fl fname"></div>
+					<h2>电子教育</h2>
+					<div class="tap1 fl">
+						<a href="" class="tap1_first">热销单品</a>
+						<a href="">新品速递</a>
+						<a href="">数码电子</a>
+						<a href="">家居生活</a>
+						<a href="">母婴个护</a>
+						<a href="">特色食品</a>
+						<a href="">文具文体</a>
+						
+					</div>
+				</div>
+				<div class="mainf1" >
+					
+					<div class="banner_pro fl ">
+						<ul class="product_list fl ">
+					
+						</ul>
+				
+					</div>
+					<div class="floorhottop fl " >
+						<ul class="tabcontent ">
+							
+						</ul>
+					</div>
+				</div>
+				<div class="footbanner "></div>
+			</div>
+			
+		</div>
+			
+<div class="partner">
+				<div class="wrap">
+					<h2>战略合作伙伴</h2>
+					<div class="main">
+						<ul>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+	
+	
+	</div>
+		<div class="ftit">
+			<div class="wrap ftit_inner"><h3>还没逛够</h3></div>
+		</div>
+		<div id="pubu" class="wrap"></div>
+		<div class="footcontentinfo">
+			
+		</div>
+		<div class="adv1">
+			<div class="fr">
+				<div class="fuli">
+					<div class="fl show1" id="fl">
+					
+					</div>
+				</div>
+				<div class="sao">
+					<div class="fl show2" id="fl">
+							
+					</div>
+				</div>
+				<div class="kf"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2126285319&site=qq&menu=yes"><img border="0" src="images/kf1.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></div>
+				<div class="totop"></div>
+			</div>
+			
+			
+		</div>
+	</body>
+
+</html>

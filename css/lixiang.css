@@ -1,0 +1,132 @@
+.like {
+    display: block;
+    float: left;
+    width: 1198px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* padding: 0px 8px; */
+    border-top: 1px solid #de1922;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+.like .title {
+    display: block;
+    float: left;
+    width: 1190px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.like .title .fl {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+/*.read li{
+	float: left;
+}*/
+.like .read li {
+    display: block;
+    width: 150px;
+    height: 216px;
+    float: left;
+    margin: 5px 12px 0px 0px;
+    padding: 0px 18px 15px;
+}
+.like ul li .price {
+    display: block;
+    width: 150px;
+    float: left;
+    color: #E4393C;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+.like ul li .price  .new_price {
+    display: block;
+    float: left;
+    margin-left: 6px;
+    color: #E4393C;
+}
+.like ul li .price .old_price{
+	display: block;
+    float: left;
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.like ul li .name {
+    color: #666;
+    width: 150px;
+    height: 40px;
+    float: left;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px 5px 12px;
+}
+.like ul li .name a {
+    color: #666;
+    font-weight: bold;
+}
+.buttorn{
+	cursor: pointer;
+}
+.p_hot {
+    font-family: "Microsoft YaHei";
+    width: 178px;
+   
+    margin: 10px 0px;
+    padding: 0px;
+    border: 1px solid #ddd;
+    /*background: #ccc;*/
+    /*height: 500px;*/
+}
+.navright {
+    display: block;
+  	height: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 1010px;
+    /*background: #ff0;*/
+}
+.p_t {
+    background-color: #f7f7f7;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+    line-height: 24px;
+    height: 24px;
+}
+ .p_c {
+    background-color: #fff;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+}
+
+.pdt div {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+.p_hotbooktitle {
+    color: #666;
+    width: 150px;
+    height: 40px;
+    float: left;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px 5px 0px;
+}
+.pdt .price {
+    font-size: 16px;
+    color: #dc0000;
+    margin-bottom: 10px;
+}

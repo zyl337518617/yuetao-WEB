@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="Ajax.js"></script>
+    <script type="text/javascript">
+        window.onload=function(){
+            document.getElementById("submit").onclick=function() {
+                ajaxRequest("post", "login.php", true, {
+                    "user": document.getElementById("txt").value,
+                    "pwd": document.getElementById("pwd").value
+                }, function (data) {
+                    /**
+                     * {"user":"h51615","pwd":"123456"}
+                     * 向服务器传递参数，上面的两个key不可改变。
+                     */
+                    data=data.replace(/\s+/g,"");
+                    if(data!="0") {
+                        document.getElementById("tip").innerHTML = "欢迎："+data+"，登录";
+                    }else{
+                        alert("用户名或者密码错误！！！请输入正确的用户名或者密码!!!");
+                    }
+                });
+            }
+        }
+
+    </script>
+</head>
+<body>
+<input type="text" id="txt"/>
+<input type="password" id="pwd"/>
+<input type="button" id="submit" value="sign up"/>
+<span id="tip">请登录</span>
+</body>
+</html>

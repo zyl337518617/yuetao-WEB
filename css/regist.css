@@ -1,0 +1,163 @@
+.logo .wrap{
+	width: 990px;
+	margin: 0 auto;
+}
+.regdiv {
+    width: 990px;
+    margin: 0px auto;
+    background-color: #fff;
+    overflow: hidden;
+    border: solid 1px #d6d6d6;
+    margin-bottom: 50px;
+}
+.mod-bread {
+    height: 46px;
+    border-bottom: solid 1px #eceef2;
+}
+form{
+	margin: 20px 0 20px;
+	/*overflow: hidden;*/
+	height: 384px;
+	float: left;
+	border-right:solid 1px #d6d6d6 ;
+}
+.reg_div_form_sin {
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+}
+.name{
+	display: block;
+	float: left;
+    width: 125px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    line-height: 35px;
+    color: #5e5e5e;
+    font-family: 'Microsoft YaHei';
+    text-align: right;
+}
+.name em {
+    color: #f25656;
+    font-size: 12px;
+}
+.name span {
+    color: #5e5e5e;
+    font-size: 14px;
+    padding-left: 12px;
+    height: 125px;
+    display: inline-block;
+
+}
+.reg_div_form_sin_r {
+    width: 245px;
+    padding-left: 5px;
+    height: 33px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    position: relative;
+    float: left;
+}
+.reg_div_form_sin_r input {
+    position: relative;
+    top: 4px;
+    border: none;
+    outline: 0;
+    width: 205px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    background-color: #ffffff;
+}
+.contral p{
+	font-size: 12px;
+	text-indent: 10px;
+	margin-top: 10px;
+	height:40px;
+	line-height: 40px;
+	font:14px/26px "微软雅黑";
+	color:#999;
+	visibility:hidden;
+	float: left;
+			
+}
+.contral{
+	height:55px;
+	width:100%;
+	overflow: hidden;
+	margin-top:10px ;
+}
+form:after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.reg_div_form_sin_btn {
+    width: 154px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: none;
+    background-color: #da1111;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 129px;
+}
+.reg_div_form_sin_but {
+	float: left;
+    width: auto;
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    padding-left: 41px;
+    color: #0c7fba;
+}
+.bread-left {
+    border-bottom: none;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 46px;
+    line-height: 46px;
+    text-align: right;
+    width: 137px;
+}
+.reg_pinfo {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: ;
+}
+.reg_div_link_text {
+	margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    margin-left: 40px;
+}
+.reg_div_link_text a {
+    color: #e4393c;
+  
+   
+    font-size: 18px;
+}
+#yzm{
+	width: 150px;
+	float: left;
+}
+#yanzheng{
+	float: left;
+	font-size: 14px;
+	height: 30px;
+	width: 80px;
+	line-height: 30px;
+	text-align: center;
+	font-family: "arial black";
+}

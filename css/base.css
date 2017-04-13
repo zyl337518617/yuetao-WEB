@@ -1,0 +1,85 @@
+html,body{font-family: "Microsoft YaHei"; font-size:12px; } 
+html {
+	color: rgb(0, 0, 0); -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+* {
+	margin: 0px; padding: 0px;
+}
+article, aside, details, figcaption, figure, foot, header, menu, nav, section {
+	display: block;
+}
+
+audio {
+	display: inline-block;
+}
+canvas {
+	display: inline-block;
+}
+video {
+	display: inline-block;
+}
+body, button, input, select, textarea {
+}
+
+input, select, textarea {
+	font-size: 100%;
+}
+
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+th {
+	text-align: inherit;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;display: block;
+}
+iframe {
+	display: block;
+}
+
+
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+
+a{color:#666666;text-decoration:none;}
+a:hover{text-decoration:none;}
+.float_clear, .clear { clear:both; float:none; }
+.float_left { float:left; }
+.float_right { float:right; }
+
+
+
+body, button, input, select, textarea {
+   
+}
+
+.number {
+    color: #f40;
+    font-weight: 700;
+}
+
+.wrap{
+	width: 1200px;
+	margin: auto;
+}

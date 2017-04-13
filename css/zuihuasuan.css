@@ -1,0 +1,117 @@
+.lists{
+margin: 0;	
+}
+.lunbo .wrap{
+	height: auto;
+	overflow: hidden;
+}
+.lunbo .banner{
+	width: 729px;
+    height: 320px;
+    
+   margin:5px 5px 5px 215px;
+    position: relative;
+    float: left;
+    
+}
+.lunbo .wrap .carousel{
+	width: 729px;
+    height: 320px;  
+    overflow: hidden;
+}
+.lunbo .wrap .fll{
+	height: 100px;
+	width: 50px;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+	left: 10px;
+	top: 110px;
+	background:rgba(0,0,0,0.5);
+	
+}
+.lunbo .wrap .frr{
+	height: 100px;
+	width: 50px;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+	left: 670px;
+	top: 110px;
+	background:rgba(0,0,0,0.5);
+}
+.lunbo .banner .item img{
+	width: 729px;
+	height: 320px;
+}
+
+.carousel-indicators li{
+	background: #ccc;
+}
+.nav-2 {
+    width: 1200px;
+    margin: 20px auto 40px;
+    margin-bottom: 20px;
+}
+.zui_tcontent {
+    border-bottom: 2px solid #df1b1e;
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin: auto;
+    width: 1200px;
+   
+}
+.zui_title {
+    color: #df1b1e;
+    font-size: 20px;
+   
+}
+.zui_ppt ul {
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+.nav-2 ul {
+    text-align: center;
+}
+.zui_tcontent li img{
+	height:153px;
+	width: 384px;
+}
+.zui_ppt li{
+	margin: 6px;
+	text-align: center;
+}
+ .zui_ppt img{
+    padding: 4px;
+}
+.logolist {
+	overflow: hidden;
+    width: 1201px;
+    margin: auto;
+    height: 180px;
+    border-left: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+.logolist ul {
+	width: 1300px;
+}
+.logolist ul li {
+    float: left;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding: 0;
+    margin: 0;
+}
+.logolist ul li img{
+	float: left;
+	border: none;
+}
+.clear {
+    display: block;
+    clear: both;
+    float: none;
+}

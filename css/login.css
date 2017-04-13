@@ -1,0 +1,141 @@
+.ytwlogo {
+	height: 100px;
+	width: 100%;
+	min-width: 990px;
+}
+.ytwlogo .wrap{
+	width: 990px;
+	height: 100px;
+}
+.login {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logindiv {
+    width: 852px;
+    height: 418px;
+    overflow: hidden;
+    margin: 20px auto;
+    background: url(../images/bg.gif);
+}
+.leftimg {
+    float: left;
+    width: 350px;
+    height: 390px;
+    margin: 13px 15px;
+}
+.rightbox {
+    border: #000 solid 0px;
+    height: 380px;
+    width: 300px;
+    display: block;
+margin: 60px 0px 0px 122px;
+}
+.rightbox h2 {
+    position: relative;
+    height: 27px;
+    line-height: 27px;
+    top: -5px;
+    float: left;
+    color: #666;
+    font-family: '\5fae\8f6f\96c5\9ed1';
+    font: 20px "microsoft yahei","\5b8b\4f53";
+}
+.regist-link {
+    color: #b61d1d;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 10px;
+}
+.mt {
+    display: inline-block;
+    display: block;
+    width: 306px;
+    overflow: visible;
+    height: 27px;
+}
+.regist-link a {
+    color: #b61d1d;
+    text-decoration: none;
+}
+.regist-link a span{
+	float: left;
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../images/pwd-icons-new.png) -104px -75px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.msg-wrap {
+    min-height: 31px;
+    height: auto!important;
+    height: 31px;
+    margin: 2px 0 5px;
+}
+.msg-warn {
+    position: relative;
+    background: #fff6d2;
+    color: #666;
+    border: 1px solid #ffe57d;
+    padding: 3px 10px 3px 40px;
+    line-height: 18px;
+    height: 18px;
+    float: left;
+    width: 240px;
+}
+.msg-warn span{
+	position: absolute;
+    top: 50%;
+    left: 10px;
+    display: block;
+    margin-top: -8px;
+    width: 16px;
+    height: 17px;
+    overflow: hidden;
+    background: url(../images/pwd-icons-new.png) -104px -22px no-repeat;
+}
+.loginin {
+    position: relative;
+    overflow: visible;
+}
+.user_name, .user_psw {
+	margin: 5px 0 15px;
+	background: url(../images/input.gif) no-repeat;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-property: all;
+    border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    padding: 0 0 0 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 260px;
+}
+.user_submit {
+    border: 1px solid #e85356;
+    display: block;
+    background: #e14949;
+    border: medium none;
+    clear: both;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    width: 300px;
+}
+.user_psw {
+    background: url("../images/input.gif") no-repeat 0px -30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
