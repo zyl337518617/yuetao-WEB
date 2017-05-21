@@ -1,3 +1,4 @@
+//输入框提示
 function _input(){
 	$("#input").on("input", function() {		
 				var valu = $(this).val();
@@ -31,6 +32,8 @@ function _input(){
 				})
 	
 }
+
+//获取列表
 function _loadlist(){
 	$.post("json/list.json", function(data) {
 		var _data = data;

@@ -1,23 +1,32 @@
 .lists{
 margin: 0;	
 }
+.lunbo{
+    height:470px;
+}
 .lunbo .wrap{
-	height: auto;
 	overflow: hidden;
+    height: 100%;
 }
 .lunbo .banner{
 	width: 729px;
-    height: 320px;
+    height: 370px;
     
    margin:5px 5px 5px 215px;
     position: relative;
     float: left;
     
 }
-.lunbo .wrap .carousel{
-	width: 729px;
-    height: 320px;  
-    overflow: hidden;
+.buu img{
+    height: 100%;
+
+}
+.swiper-slide img{
+    width:100%;
+    height:370px;
+}
+.swiper-container {
+    margin-bottom: 6px;
 }
 .lunbo .wrap .fll{
 	height: 100px;
@@ -30,24 +39,8 @@ margin: 0;
 	background:rgba(0,0,0,0.5);
 	
 }
-.lunbo .wrap .frr{
-	height: 100px;
-	width: 50px;
-	font-size: 30px;
-	line-height: 100px;
-	text-align: center;
-	left: 670px;
-	top: 110px;
-	background:rgba(0,0,0,0.5);
-}
-.lunbo .banner .item img{
-	width: 729px;
-	height: 320px;
-}
 
-.carousel-indicators li{
-	background: #ccc;
-}
+
 .nav-2 {
     width: 1200px;
     margin: 20px auto 40px;
@@ -77,7 +70,7 @@ margin: 0;
 }
 .zui_tcontent li img{
 	height:153px;
-	width: 384px;
+	width: 370px;
 }
 .zui_ppt li{
 	margin: 6px;
@@ -115,3 +108,213 @@ margin: 0;
     clear: both;
     float: none;
 }
+
+.user_center {
+    width: 1021px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.book_list {
+    width: 1041px;
+    margin: 0 auto;
+    overflow: hidden;
+    _zoom: 1;
+    padding-bottom: 21px;
+    padding-top: 10px;
+    font-family: 微软雅黑;
+}
+.book_list li {
+    position: relative;
+    float: left;
+    width: 325px;
+    overflow: hidden;
+    margin: 10px 20px 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.book_list li .img {
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.user_booklist li a {
+    display: block;
+}
+.img img {
+    max-width: 270px;
+    height: 270px;
+}
+.name_tit a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: -webkit-left;
+}
+.biaoy {
+    display: inline-block;
+    text-align: center;
+    width: 108px;
+    height: 108px;
+    background-image: url(http://static.winxuancdn.com/topic/subject/201607/M/ms/db1.png);
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.biaoy span {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 25px;
+    line-height: 27px;
+    font-weight: bold;
+
+}
+.name_one{
+    display: inline-block;
+    font-weight: bold;
+    color: #000000;
+    height: 21px;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.name_two {
+    display: inline-block;
+    color: #a1a1a1;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.price {
+    width: 280px;
+    height: 36px;
+    padding: 4px 0;
+    line-height: 36px;
+    background: #fff;
+    margin: 2px 20px;
+    overflow: hidden;
+}
+.price .money_new,.price .money_o{
+    float: left;
+    line-height: 62px;
+}
+.price .money_new {
+    color: #eb0808;
+    font-size: 24px;
+    font-weight: bold;
+}
+.price .money_o{
+    color: #000000;
+    font-size: 16px;
+
+}
+.price .nmbook {
+    display: inline-block;
+    width: 59px;
+    height: 23px;
+    background-image: url(../images/fuye/db2.png);
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+    overflow: hidden;
+
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 23px;
+}
+.price .money_two {
+    color: #000000;
+    font-size: 16px;
+}
+.price .price_o{
+    margin-left: 0;
+}
+.book_list .btns {
+    display: block;
+    width: 250px;
+    height: 55px;
+    background-color: red;
+    line-height: 55px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    margin: 10px auto 10px;
+    text-align: center;
+}
+.price .zkj_fh {
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 23px;
+}
+.price .price_n {
+    font-size: 50px;
+    line-height: 42px;
+    float: left;
+    color: #eb0808;
+    font-weight: bold;
+}
+.price .price_n .price_y {
+    font-size: 24px;
+}
+.price .price_o {
+    font-size: 18px;
+    line-height: 62px;
+    color: #000;
+    text-decoration: line-through;
+    float: left;
+    display: block;
+    margin-left: 18px;
+}
+.biglist {
+
+    width: 100%;
+    margin: 0 auto;
+}
+.biglist{
+    /*background: url(../images/fuye/tj.jpg) no-repeat center;*/
+    height: 211px;
+}
+/*.bigbox img{
+
+	width: 100%;
+	margin: 0 auto;
+}*/
+.biglist div{
+    width: 990px;
+    height: 211px;
+    margin: 0 auto;
+    position: relative;
+}
+.dang{
+
+    font-size: 35px;
+    color: #623111;
+    line-height: 0.8;
+
+
+}
+.abs {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 270px;
+    left: 260px;
+    text-align: center;
+}
+.dang2{
+    font-size: 46px;
+    color: #623111;
+    font-weight: bold;
+}
+

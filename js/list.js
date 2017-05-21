@@ -284,7 +284,7 @@ function pageDivide() {
 	this.showData = function() {
 		var _code = "";
 		for(var i = this.start; i < (this.start + this.size); i++) {
-			_code += "<li><div class='img'><a href='xiangqing.html'><img src='" + this.data["4"][i][0] + "'/></a></div><div class='price'><span class='now'>" + this.data["4"][i][1] + "</span><span class='befor'>" + this.data["4"][i][2] + "</span></div><div class='name'><a href=''>" + this.data["4"][i][3] + "</a></div><div class='time'>" + this.data["4"][i][4] + "</div><div class='btn'><a href=''>加入购物车</a></div><div class='btn1'><a href=''>收藏</a></div></li>"
+			_code += "<li><div class='img'><a href='xiangqing.html?goodid="+this.data["4"][i][5]+"'><img src='" + this.data["4"][i][0] + "'/></a></div><div class='price'><span class='now'>" + this.data["4"][i][1] + "</span><span class='befor'>" + this.data["4"][i][2] + "</span></div><div class='name'><a href=''>" + this.data["4"][i][3] + "</a></div><div class='time'>" + this.data["4"][i][4] + "</div><div class='btn'><a href=''>加入购物车</a></div><div class='btn1'><a href=''>收藏</a></div></li>"
 			$("#container").html(_code);
 		}
 

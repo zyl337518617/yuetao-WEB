@@ -45,34 +45,42 @@ function zoon(){
 		})
 	}
 }
+
+
+//获取地址栏
+function GetQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
 //获取数据
 function load(){
 	var data1=null;
-	var loaimg=function(){
-		$(".p_adv").append("<a href='javasprict:;'><img src='"+data1["bigimg"][0]+"'/></a>")
-	}
+	var id=GetQueryString("goodid")
+
 	var loadtxt=function(){
-		$("#sim30").attr("src",data1["book"]["img"]);
-		$("#imgss").attr("src",data1["book"]["img"])
-		$(".num").html(data1["book"]["num"])
-		$("._pricr").html(data1["book"]["new_price"])
-		$(".font_del").html(data1["book"]["old_price"])
-		$(".isbn").eq(0).html(data1["book"]["ISBN"])
-		
-		
+		$("#sim30").attr("src",data1[id]["book"]["img"]);
+		$("#imgss").attr("src",data1[id]["book"]["img"])
+		$(".num").html(data1[id]["book"]["num"])
+		$("._pricr").html(data1[id]["book"]["new_price"])
+		$(".font_del").html(data1[id]["book"]["old_price"])
+		$(".isbn").eq(0).html(data1[id]["book"]["ISBN"])
+		$(".p_title").eq(0).html(data1[id]["book"]["name"])
+		$("#write").html(data1[id]["book"]["write"])
 		
 	}
 	var floor=function(){
 //		console.log(data1["floor"].length)
-		for (var i=0;i<data1["floor"].length;i++) {
-			$("#p_contentdetail").append("<div><div class='item-mt'><h3>"+data1["floor"][i][0]+"</h3></div><div class='text'>"+data1["floor"][i][1]+"</div></div>")
+		for (var i=0;i<data1[id]["floor"].length;i++) {
+			$("#p_contentdetail").append("<div><div class='item-mt'><h3>"+data1[id]["floor"][i][0]+"</h3></div><div class='text'>"+data1[id]["floor"][i][1]+"</div></div>")
 		}
 	}
 	$.post("json/xiangqing.json",null,function(data,textStatus){
 		if(textStatus == "success"){
 			data1=data
 			loadtxt();
-			loaimg();
+//			loaimg();
 			floor()
 		}
 	})
@@ -174,6 +182,7 @@ function right(){
 var clickchar=function(){
 	this.valu=0;
 	var _me=this;
+	this.arr=[]
 	this.clic1=function(){
 		$(".num_del_disabled").on("click",function(){
 			if(parseInt($(".buy-num-text").val())>1){
@@ -188,26 +197,31 @@ var clickchar=function(){
 		})
 //		_me.valu=$(".buy-num-text").val();
 	}
+	this.num=0;
 	this.clic2=function(){
 		 var flag=true;
 		$(".btn_buy").on("click",function(){
 			if(flag==true){
-				$(".cart_num").html($(".buy-num-text").val())
-			document.cookie = "isbn"+$(".isbn").eq(0).html()+"=" + $(".buy-num-text").val()+","+ $(".isbn").eq(0).html()+ ";path=/;expires=" + new Date((new Date()).getTime()+ (7 * 24 * 3600000))+";";
-			document.cookie = "isbn978-7-80740-801-7=5,978-7-80740-801-7;path=/;expires=" + new Date((new Date()).getTime()+ (7 * 24 * 3600000))+";";
-			document.cookie = "isbn978-7-80740-803-1=3,978-7-80740-803-1;path=/;expires=" + new Date((new Date()).getTime()+ (7 * 24 * 3600000))+";";
-			flag=false;
+				var data={goodid:GetQueryString("goodid"),num:$(".buy-num-text").val()}
+				localStorage.setItem("goodid"+GetQueryString("goodid"),JSON.stringify(data))
+				
+					for (var i=0;i<localStorage.length;i++) {
+						_me.num+=Number(JSON.parse(localStorage.getItem(localStorage.key(i))).num)
+					}
+						
+				
+				$(".cart_num").html(_me.num)
+				
+			
+				flag=false;
 			}else{
 				alert("该商品已经存在购物车，请前往购物车查看")
 			}
 			
 			
-			console.log($(".isbn").eq(0).html())
+			
 		})
-	}
-	
-	
-}
+	}}
 
 
 
@@ -229,5 +243,6 @@ function main(){
 	var _clickchar=new clickchar();
 	_clickchar.clic1()
 	_clickchar.clic2()
+	
 }
 window.onload=main;

@@ -1,0 +1,49 @@
+.all-sort-list{
+    display: none;
+}
+.banner1{
+    width: 100%;
+    height: auto;
+    min-width: 1200px;
+    background: #ffc019;
+}
+.banner1 img{
+    width: 100%;
+}
+.xuzhi{
+    border-bottom: 2px solid #DC0000;
+    height: 35px;
+    color: #C92629;
+    line-height: 35px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+.jieshao{
+    display: block;
+    color: #666;
+    line-height: 48px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+ .telno {
+    display: block;
+    border-radius: 4px;
+    width: 212px;
+    background: #dc0000;
+    color: rgb(255, 255, 255);
+    text-indent: 6px;
+    line-height: 38px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 10px;
+     font-size: 16px;
+}
+.time {
+    display: block;
+    color: #333;
+    line-height: 48px;
+    font-size: 18px;
+    margin-left: 10px;
+}
